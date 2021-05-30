@@ -1,0 +1,44 @@
+@use './src/scss/abstract/index' as *;
+
+.product__item {
+  width: 75%;
+  text-align: center;
+  background: #fff;
+  margin-right: 1rem;
+  padding: 1em 1.5em;
+}
+
+.product__item-view {
+  height: 18rem;
+  object-fit: contain;
+}
+
+.product__item-title {
+  font-size: 1.6rem;
+  margin: 3rem 0 1rem 0;
+  color: $clr-accent800;
+}
+
+.product__item-desc {
+  color: $clr-darkgray;
+  font-size: 1.4rem;
+  max-height: 7rem;
+  overflow: hidden;
+}
+
+.product__item-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.product__item-rating {
+  font-size: 1.8rem;
+  color: gold;
+}
+
+.product__item-price {
+  color: $clr-accent800;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}

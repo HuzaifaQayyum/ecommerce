@@ -1,0 +1,13 @@
+@use '../abstract/index' as *;
+
+.toggler {
+  background-color: #fff;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 10rem;
+}
+
+.btn--black {
+    color: #fff;
+    background: $clr-accent800;
+}

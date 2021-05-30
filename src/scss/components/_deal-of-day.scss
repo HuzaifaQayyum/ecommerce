@@ -1,0 +1,28 @@
+@use './src/scss/abstract' as *;
+
+.deal-of-day {
+    display: flex;
+    background-image: url(/images/bg.webp);
+    flex-direction: column;
+    padding: 2em 1em;
+}
+
+.deal-of-day__title {
+    color: $clr-white;
+}
+
+.deal-of-day__info {
+    text-align: center;
+    color: #fff;
+}
+
+.deal-of-day__products {
+    margin-top: 2rem;
+}
+
+.deal-of-day .flickity-prev-next-button.next {
+    right: 0;
+}
+.deal-of-day .flickity-prev-next-button.previous {
+    left: 0;
+}

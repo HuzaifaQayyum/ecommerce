@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="main.scss">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header collapsable">
+        <div class="container">
+            <h1 class="logo">Shopio</h1>
+            <button class="collapsable__toggler material-icons icon--lg">
+                menu
+            </button>
+            <nav class="nav__wrapper collapsable__content">
+                <form action="" class="search">
+                    <input type="text" class="search__input" placeholder="Search...">
+                    <button class="search__submit material-icons icon--md">search</button>
+                </form>
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="">Home</a></li>
+                    <li class="nav__item"><a href="">Today Deals</a></li>
+                    <li class="nav__item"><a href="">Customer Service</a></li>
+                    <li class="nav__item"><a href="">Gift Cards</a></li>
+                    <li class="nav__item"><a href="">Sell</a></li>
+                </ul>
+
+                <ul class="options__list">
+                    <li class="options__item">
+                        <a href="">
+                            <span class="material-icons icon--sm">
+                                get_app
+                            </span> Download App
+                        </a>
+                    </li>
+                    <li class="options__item">
+                        <a href=""> <span class="material-icons icon--sm">
+                                account_circle
+                            </span> Signup/Login</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Slider -->
+    <ul class="slider__list" data-flickity='{ "cellSelector": ".slider__item", "wrapAround": true, "autoPlay": true }'>
+        <li class="slider__item"><img src="images/desktop/image-grid.jpg" alt=""></li>
+        <li class="slider__item"><img src="images/desktop/image-deep-earth.jpg" alt=""></li>
+        <li class="slider__item"><img src="images/desktop/image-night-arcade.jpg" alt=""></li>
+    </ul>
+
+    <!-- Popular Products -->
+    <section class="products--flicktity container">
+        <div class="section-starter">
+            <h2 class="section-starter__title">Popular Products</h2>
+            <div class="section-starter__actions">
+                <button class="section-starter__btn section-starter__btn--prev toggler material-icons icon--md"
+                    disabled="disabled">chevron_left</button>
+                <button
+                    class="section-starter__btn section-starter__btn--next toggler material-icons icon--md">chevron_right</button>
+            </div>
+        </div>
+
+        <ul class="product__list">
+            <li class="product__item">
+                <img src="./images/products/laptop_1.jpg" alt="Laptop Image" class="product__item-view">
+                <h3 class="product__item-title">Apple MacBook Pro</h3>
+                <p class="product__item-desc">(Wifi) Core i5 - 8Gb/128GB OS Windows 10</p>
+                <div class="product__item-info">
+                    <p class="product__item-rating material-icons">
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                    </p>
+                    <p class="product__item-price">$47.34</p>
+                </div>
+            </li>
+
+            <li class="product__item">
+                <img src="./images/products/laptop_1.jpg" alt="Laptop Image" class="product__item-view">
+                <h3 class="product__item-title">Apple MacBook Pro</h3>
+                <p class="product__item-desc">(Wifi) Core i5 - 8Gb/128GB OS Windows 10</p>
+                <div class="product__item-info">
+                    <p class="product__item-rating material-icons">
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                    </p>
+                    <p class="product__item-price">$47.34</p>
+                </div>
+            </li>
+
+            <li class="product__item">
+                <img src="./images/products/laptop_1.jpg" alt="Laptop Image" class="product__item-view">
+                <h3 class="product__item-title">Apple MacBook Pro</h3>
+                <p class="product__item-desc">(Wifi) Core i5 - 8Gb/128GB OS Windows 10</p>
+                <div class="product__item-info">
+                    <p class="product__item-rating material-icons">
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                    </p>
+                    <p class="product__item-price">$47.34</p>
+                </div>
+            </li>
+
+            <li class="product__item">
+                <img src="./images/products/laptop_1.jpg" alt="Laptop Image" class="product__item-view">
+                <h3 class="product__item-title">Apple MacBook Pro</h3>
+                <p class="product__item-desc">(Wifi) Core i5 - 8Gb/128GB OS Windows 10</p>
+                <div class="product__item-info">
+                    <p class="product__item-rating material-icons">
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                    </p>
+                    <p class="product__item-price">$47.34</p>
+                </div>
+            </li>
+
+            <li class="product__item">
+                <img src="./images/products/laptop_1.jpg" alt="Laptop Image" class="product__item-view">
+                <h3 class="product__item-title">Apple MacBook Pro</h3>
+                <p class="product__item-desc">(Wifi) Core i5 - 8Gb/128GB OS Windows 10</p>
+                <div class="product__item-info">
+                    <p class="product__item-rating material-icons">
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                    </p>
+                    <p class="product__item-price">$47.34</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="products--flicktity container">
+        <div class="section-starter">
+            <h2 class="section-starter__title">Featured Products</h2>
+            <div class="section-starter__actions">
+                <button class="section-starter__btn section-starter__btn--prev toggler material-icons icon--md"
+                    disabled="disabled">chevron_left</button>
+                <button
+                    class="section-starter__btn section-starter__btn--next toggler material-icons icon--md">chevron_right</button>
+            </div>
+        </div>
+
+        <ul class="product__list">
+            <li class="product__item">
+                <img src="./images/products/watch1.jpg" alt="Laptop Image" class="product__item-view">
+                <h3 class="product__item-title">Apple MacBook Pro</h3>
+                <p class="product__item-desc">(Wifi) Core i5 - 8Gb/128GB OS Windows 10 Activated</p>
+                <div class="product__item-info">
+                    <p class="product__item-rating material-icons">
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                    </p>
+                    <p class="product__item-price">$47.34</p>
+                </div>
+            </li>
+
+            <li class="product__item">
+                <img src="./images/products/laptop_1.jpg" alt="Laptop Image" class="product__item-view">
+                <div class="product__item-details">
+                    <h3 class="product__item-title">Apple MacBook Pro</h3>
+                    <p class="product__item-desc">(Wifi) Core i5 - 8Gb/128GB OS Windows 10</p>
+                    <div class="product__item-info">
+                        <p class="product__item-rating material-icons">
+                            <span>star</span>
+                            <span>star</span>
+                            <span>star</span>
+                            <span>star</span>
+                            <span>star</span>
+                        </p>
+                        <p class="product__item-price">$47.34</p>
+                    </div>
+                </div>
+            </li>
+
+            <li class="product__item">
+                <img src="./images/products/laptop_1.jpg" alt="Laptop Image" class="product__item-view">
+                <h3 class="product__item-title">Apple MacBook Pro</h3>
+                <p class="product__item-desc">(Wifi) Core i5 - 8Gb/128GB OS Windows 10</p>
+                <div class="product__item-info">
+                    <p class="product__item-rating material-icons">
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                    </p>
+                    <p class="product__item-price">$47.34</p>
+                </div>
+            </li>
+
+            <li class="product__item">
+                <img src="./images/products/laptop_1.jpg" alt="Laptop Image" class="product__item-view">
+                <h3 class="product__item-title">Apple MacBook Pro</h3>
+                <p class="product__item-desc">(Wifi) Core i5 - 8Gb/128GB OS Windows 10</p>
+                <div class="product__item-info">
+                    <p class="product__item-rating material-icons">
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                    </p>
+                    <p class="product__item-price">$47.34</p>
+                </div>
+            </li>
+
+            <li class="product__item">
+                <img src="./images/products/laptop_1.jpg" alt="Laptop Image" class="product__item-view">
+                <h3 class="product__item-title">Apple MacBook Pro</h3>
+                <p class="product__item-desc">(Wifi) Core i5 - 8Gb/128GB OS Windows 10</p>
+                <div class="product__item-info">
+                    <p class="product__item-rating material-icons">
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                    </p>
+                    <p class="product__item-price">$47.34</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Deal of the day -->
+    <section class="deal-of-day">
+        <div class="deal-of-day__info">
+            <h3 class="deal-of-day__title">Deals Of the Day</h3>
+            <p class="deal-of-day-expiration">08:32:29</p>
+        </div>
+
+        <ul class="deal-of-day__products product__list"
+            data-flickity='{"contain": true, "cellAlign": "center", "prevNextButtons": false }'>
+            <li class="product__item">
+                <img src="./images/products/watch1.jpg" alt="Laptop Image" class="product__item-view">
+                <h3 class="product__item-title">Apple MacBook Pro</h3>
+                <p class="product__item-desc">(Wifi) Core i5 - 8Gb/128GB OS Windows 10</p>
+                <div class="product__item-info">
+                    <p class="product__item-rating material-icons">
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                    </p>
+                    <p class="product__item-price">$47.34</p>
+                </div>
+            </li>
+            <li class="product__item">
+                <img src="./images/products/watch1.jpg" alt="Laptop Image" class="product__item-view">
+                <h3 class="product__item-title">Apple MacBook Pro</h3>
+                <p class="product__item-desc">(Wifi) Core i5 - 8Gb/128GB OS Windows 10</p>
+                <div class="product__item-info">
+                    <p class="product__item-rating material-icons">
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                    </p>
+                    <p class="product__item-price">$47.34</p>
+                </div>
+            </li>
+            <li class="product__item">
+                <img src="./images/products/watch1.jpg" alt="Laptop Image" class="product__item-view">
+                <h3 class="product__item-title">Apple MacBook Pro</h3>
+                <p class="product__item-desc">(Wifi) Core i5 - 8Gb/128GB OS Windows 10</p>
+                <div class="product__item-info">
+                    <p class="product__item-rating material-icons">
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                    </p>
+                    <p class="product__item-price">$47.34</p>
+                </div>
+            </li>
+            <li class="product__item">
+                <img src="./images/products/watch1.jpg" alt="Laptop Image" class="product__item-view">
+                <h3 class="product__item-title">Apple MacBook Pro</h3>
+                <p class="product__item-desc">(Wifi) Core i5 - 8Gb/128GB OS Windows 10</p>
+                <div class="product__item-info">
+                    <p class="product__item-rating material-icons">
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                    </p>
+                    <p class="product__item-price">$47.34</p>
+                </div>
+            </li>
+            <li class="product__item">
+                <img src="./images/products/watch1.jpg" alt="Laptop Image" class="product__item-view">
+                <h3 class="product__item-title">Apple MacBook Pro</h3>
+                <p class="product__item-desc">(Wifi) Core i5 - 8Gb/128GB OS Windows 10</p>
+                <div class="product__item-info">
+                    <p class="product__item-rating material-icons">
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                    </p>
+                    <p class="product__item-price">$47.34</p>
+                </div>
+            </li>
+        </ul>
+
+    </section>
+
+    <!-- Sponsored products -->
+    <div class="sponserd-products container">
+        <div class="sponserd-product">
+            <img class="sponserd-product__logo" src="/images/logos/xbox.png" alt="Xbox Logo">
+            <h3 class="sponserd-product__title">Gaming Console</h3>
+            <img src="/images/products/gaming_console.jpg" alt="Game console image" class="sponserd-product__view">
+        </div>
+
+        <div class="sponserd-product sponserd-product--primary">
+            <img class="sponserd-product__logo" src="/images/logos/nike.png" alt="Nike Logo">
+            <h3 class="sponserd-product__title">Running Shoe</h3>
+
+            <img src="/images/products/nike-shoe.png" alt="Nike shoe" class="sponserd-product__view">
+        </div>
+
+        <div class="sponserd-product sponserd-product--secondary">
+            <img class="sponserd-product__logo" src="/images/logos/samsung.png" alt="Samsung Logo">
+            <h3 class="sponserd-product__title">Explore Future</h3>
+
+            <img src="/images/products/samsung.png" style="transform: scale(1);" alt="Samsung Phone image"
+                class="sponserd-product__view">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="bio">
+            <h1 class="logo">Shopio</h1>
+            <p class="bio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nobis facilis
+                provident!</p>
+        </div>
+
+        <div class="collapsable">
+            <div class="collapsable__header">
+                <h3 class="collapsable__title">Privacy Policy</h3>
+                <button
+                    class="collapsable__toggler collapsable__toggler--rotate  toggler material-icons">expand_more</button>
+            </div>
+
+            <div class="collapsable__content">
+                <ul class="list">
+                    <li class="list__item"><a href="">Privacy Policy</a></li>
+                    <li class="list__item"><a href="">Terms of Use</a></li>
+                    <li class="list__item"><a href="">Terms of Sale</a></li>
+                    <li class="list__item"><a href="">Report Abuse and Takedown policy</a></li>
+                    <li class="list__item"><a href="">C&R Policy</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="collapsable">
+            <div class="collapsable__header">
+                <h3 class="collapsable__title">Company</h3>
+                <button
+                    class="collapsable__toggler collapsable__toggler--rotate  toggler material-icons">expand_more</button>
+            </div>
+
+            <div class="collapsable__content">
+                <ul class="list">
+                    <li class="list__item"><a href="">About Us</a></li>
+                    <li class="list__item"><a href="">Blog</a></li>
+                    <li class="list__item"><a href="">Silvermap</a></li>
+                    <li class="list__item"><a href="">FAQ</a></li>
+                    <li class="list__item"><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="collapsable">
+            <div class="collapsable__header">
+                <h3 class="collapsable__title">Buisness</h3>
+                <button
+                    class="collapsable__toggler collapsable__toggler--rotate  toggler material-icons">expand_more</button>
+            </div>
+
+            <div class="collapsable__content">
+                <ul class="list">
+                    <li class="list__item"><a href="">Sell on Shopio</a></li>
+                    <li class="list__item"><a href="">Advertise on Shopio</a></li>
+                    <li class="list__item"><a href="">Deal of the day</a></li>
+                    <li class="list__item"><a href="">Media Enquries</a></li>
+                    <li class="list__item"><a href="">Sans an Abbridue</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="news-letter">
+            <form action="" class="news-letter__form">
+                <input type="text" class="news-letter__input" placeholder="Email...">
+                <button class="news-letter__submit btn--black">Submit</button>
+            </form>
+            <p class="news-letter__desc">We dont spam our loyal customers. Feel free to say us Hi...</p>
+        </div>
+
+    </footer>
+
+    <script defer src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script defer src="./main.ts"></script>
+</body>
+
+</html>

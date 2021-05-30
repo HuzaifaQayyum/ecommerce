@@ -1,0 +1,45 @@
+.collapsable {
+  overflow: hidden;
+}
+
+.collapsable__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.collapsable__toggler--rotate  {
+  transform: rotate(-90deg);
+  transition: transform 0.2s ease-out;
+}
+
+
+.collapsable.active .collapsable__toggler--rotate  {
+  transform: unset;
+}
+
+.collapsable .collapsable__content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease;
+}
+
+.collapsable.active .collapsable__content {
+  max-height: 50rem;
+}
+
+
+// Collapsable Typ2 
+.collapsable--scale {
+  .collapsable__content {
+    transform: scaleY(0);
+    transition: transform 200ms ease-out;
+  }
+}
+
+.collapsable--scale.active {
+  .collapsable__content {
+    transform: scaleY(1);
+  }
+} 

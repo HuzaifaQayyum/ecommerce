@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.3.1",
+    "sass": "^1.34.0",
+    "typescript": "^4.3.2"
+  },
+  "name": "challenge-3",
+  "version": "1.0.0",
+  "main": "index.js",  
+  "scripts": {
+    "start": "parcel build index.html",
+    "run": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuzaifaQayyum/ecommerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HuzaifaQayyum/ecommerce/issues"
+  },
+  "homepage": "https://github.com/HuzaifaQayyum/ecommerce#readme",
+  "description": ""
+}

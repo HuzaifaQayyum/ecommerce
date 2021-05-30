@@ -1,0 +1,51 @@
+@use './src/scss/abstract/index' as *;
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background: $clr-white800;
+  padding: 2em 1em;
+
+  .collapsable {
+    margin-bottom: 1rem;
+  }
+}
+
+.bio {
+  text-align: center;
+}
+
+.bio__description {
+  margin: 1rem 0 2rem;
+  font-size: 1.5rem;
+}
+
+// news letter
+.news-letter {
+  margin-top: 2rem;
+}
+
+.news-letter__form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.news-letter__input {
+  width: 70%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0 .5em;
+  font-size: 1.8rem;
+}
+
+
+.news-letter__submit {
+  padding: .8em 1em;
+}
+
+.news-letter__desc {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
